@@ -21,10 +21,10 @@ def plot(r, theta):
 
 
 lst = list(sympy.primerange(1,200000))
-r = []
-theta = []
+xs = []
+ys = []
 for x in lst:
-    r.append(polar_cord(x)[0])
-    theta.append(polar_cord(x)[1])
+    xs.append(polar_cord(x)[0])
+    ys.append(polar_cord(x)[1])
 
-plot(r, theta)
+plot(xs, ys)
